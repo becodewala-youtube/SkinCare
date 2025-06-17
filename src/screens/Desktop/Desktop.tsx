@@ -501,8 +501,8 @@ export const Desktop = (): JSX.Element => {
           </div>
 
           {/* FAQ and Support section */}
-          <div className="mt-24 md:mt-[200px] flex flex-col lg:flex-row gap-8 lg:gap-[150px]">
-            <div className="w-full lg:w-[850px] h-[400px] md:h-[600px] lg:h-[900px] relative rounded-lg lg:rounded-none overflow-hidden md:pb-24">
+          <div className="mt-24 md:mt-[200px] flex flex-col lg:flex-row gap-8 lg:gap-[150px] ">
+            <div className="w-full lg:w-1/2 h-[400px] md:h-[600px] lg:h-[900px] relative rounded-lg lg:rounded-none overflow-hidden md:pb-12 ">
   {/* Image behind badge */}
   <img
     src={p5}
